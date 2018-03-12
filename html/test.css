@@ -13,7 +13,7 @@
  
  	   font-weight: bold; /* Жирное начертание */
   	  margin: 0; /* Убираем отступы */
-  	  color: #333; /* Цвет текста */
+  	  color: #1A1A1A; /* Цвет текста */
   	 }
    h2 {
     margin-top: 0; /* Убираем отступ сверху */
@@ -25,12 +25,16 @@
    #menu { /* Левая колонка */
     float: left; /* Обтекание справа */
     border: 1px solid #333; /* Параметры рамки вокруг */
-    width: 206px; /* Ширина колонки */
+font-weight: bold;
+font-famely: Arial;
+    background: #bfbfbf;
+    width: 225px; /* Ширина колонки */
     padding: 5px; /* Поля вокруг текста */
     margin: 10px 10px 20px 5px; /* Значения отступов */
    }
    #menu div {
     padding: 2px; /* Поля вокруг ссылок */
+    background: #bfbfbf;
    }
    #menu a { 
     display: block; /* Отображать ссылку как блок */
@@ -45,17 +49,31 @@
     margin: 0; /* Убираем поля */
    }
    #content { /* Правая колонка */
-    margin: 10px 5px 20px 225px; /* Значения отступов */
-    padding: 5px; /* Поля вокруг текста */
+    margin: 10px 5px 20px 245px; /* Значения отступов */
+    padding: 15px; /* Поля вокруг текста */
     border: 1px solid #333; /* Параметры рамки */
    }
    .line {
     border-bottom: 1px groove #333; /* Линия между ссылками */
    }
-   #foot { /* Нижний блок */
-    background: #333; /* Цвет фона */
-    padding: 5px; /* Поля вокруг текста */
-    color: #fff; /* Цвет текста */
+#foot { /* Нижний блок */
+ float: left;
+     margin: 10px 5px 200px 25px;
+    background: #02f52d; /* Цвет фона */
+	box-sizing: inherit;
+    padding: 50px; /* Поля вокруг текста */
+    color: #f5ce02; /* Цвет текста */
+     border: 1px solid #bfbfbf;
+
+   #footcontent{ /* Нижний блок */
+     margin: 10px 15px 200px 410px;
+    background: #02f52d; /* Цвет фона */
+	box-sizing: inherit;
+    padding: 50px; /* Поля вокруг текста */
+    color: #f5ce02; /* Цвет текста */
     clear: both; /* Отменяем обтекание */
+ border: 1px solid #bfbfbf;
+
+
    }
   </style>
