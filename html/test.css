@@ -56,24 +56,28 @@ font-famely: Arial;
    .line {
     border-bottom: 1px groove #333; /* Линия между ссылками */
    }
-#foot { /* Нижний блок */
- float: left;
-     margin: 10px 5px 200px 25px;
+   
+   #footer{
+
+    margin: 10px 5px 200px 25px;
     background: #02f52d; /* Цвет фона */
 	box-sizing: inherit;
     padding: 50px; /* Поля вокруг текста */
-    color: #f5ce02; /* Цвет текста */
+    color: #333; /* Цвет текста */
      border: 1px solid #bfbfbf;
-
-   #footcontent{ /* Нижний блок */
-     margin: 10px 15px 200px 410px;
-    background: #02f52d; /* Цвет фона */
-	box-sizing: inherit;
-    padding: 50px; /* Поля вокруг текста */
-    color: #f5ce02; /* Цвет текста */
-    clear: both; /* Отменяем обтекание */
- border: 1px solid #bfbfbf;
-
+    text-align: left;
 
    }
+#image_footer { /* Нижний блок */
+    
+   float: left;
+	
+}
+#footer_content{ /* Нижний блок */
+ margin: 30px 15px 50px 15px;
+     	    margin-right: -15px;
+    margin-left: 450px;
+}
+
+
   </style>
